@@ -5,7 +5,7 @@
 	"contributes": {
 		"language": [{
 			"id": "eto",
-			"extensions": [ ".iks" ],
+			"extensions": [ ".iks", ".ikm" ],
 			"aliases": [ "Autodesk Inventor Engineer-to-Order", "ETO" ]
 		}]
 	},
