@@ -1,0 +1,21 @@
+{
+	"name": "eto",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": ">=0.9.0-pre.1"
+	},
+	"activationEvents": ["onLanguage:eto"],	
+	"main": "./etoMain",
+	"publisher": "D3 Automation",
+	"contributes": {
+		"languages": [{
+			"id": "eto",
+			"aliases": ["Autodesk Engineer-to-Order", "ETO"],
+			"extensions": [".iks",".ikm"]
+		}]
+	},
+	"isAMD": true,
+	"_bundling": [
+		{ "name": "./etoMain" }
+	]
+}
